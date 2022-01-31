@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_teams"
+    app:startDestination="@id/navigation_team_list">
+
+    <fragment
+        android:id="@+id/navigation_team_list"
+        android:name="com.example.condortest.views.TeamListFragment"
+        tools:layout="@layout/fragment_team_list">
+
+        <action
+            android:id="@+id/action_navigation_team_list_to_navigation_team_details"
+            app:destination="@id/navigation_team_details" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_team_details"
+        android:name="com.example.condortest.views.TeamDetailsFragment"
+        tools:layout="@layout/fragment_team_details">
+
+        <argument
+            android:name="team_id"
+            app:argType="string" />
+        <argument
+            android:name="team_name"
+            app:argType="string" />
+        <argument
+            android:name="team_description"
+            app:argType="string" />
+        <argument
+            android:name="team_foundation"
+            app:argType="string" />
+        <argument
+            android:name="team_jersey"
+            app:argType="string" />
+        <argument
+            android:name="team_badge"
+            app:argType="string" />
+        <argument
+            android:name="team_website"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="team_facebook"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="team_twitter"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="team_instagram"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+
+</navigation>

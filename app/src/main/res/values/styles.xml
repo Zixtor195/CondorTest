@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Font Families -->
+    <style name="GalanoGrotesque">
+        <item name="android:fontFamily">@font/galano_grotesque</item>
+    </style>
+
+    <!-- Font Sizes -->
+    <style name="GalanoGrotesque.Bigger" parent="GalanoGrotesque">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GalanoGrotesque.Medium" parent="GalanoGrotesque">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="GalanoGrotesque.Small" parent="GalanoGrotesque">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!-- Font Colors -->
+    <style name="GalanoGrotesque.Bigger.Black" parent="GalanoGrotesque.Bigger">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SansSeGalanoGrotesqueif.Bigger.White" parent="GalanoGrotesque.Bigger">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GalanoGrotesque.Medium.Black" parent="GalanoGrotesque.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="GalanoGrotesque.Medium.White" parent="GalanoGrotesque.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GalanoGrotesque.Small.Black" parent="GalanoGrotesque.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+</resources>
